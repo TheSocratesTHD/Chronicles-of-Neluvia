@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "8ebab7d8-fb84-4ef5-9ab2-435e8c077f02",
+  "_index": 2,
+  "name": "02: SCN_OVERWORLD_PEN1",
+  "backgroundId": "26b06f47-33aa-482c-bd00-0d52d41bcb3e",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 472,
+  "y": 30,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

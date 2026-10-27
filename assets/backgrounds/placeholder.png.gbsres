@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "26b06f47-33aa-482c-bd00-0d52d41bcb3e",
+  "name": "placeholder",
+  "symbol": "bg_placeholder",
+  "tileColors": "",
+  "filename": "placeholder.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

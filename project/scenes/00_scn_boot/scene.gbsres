@@ -3,7 +3,7 @@
   "id": "1e9a68a9-508e-415d-933a-c5100cfec9ea",
   "_index": 0,
   "name": "00: SCN_BOOT",
-  "backgroundId": "1da35172-aea4-40b4-8215-7992d9245b34",
+  "backgroundId": "26b06f47-33aa-482c-bd00-0d52d41bcb3e",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -11,10 +11,10 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "00168+",
   "autoFadeSpeed": 3,
   "symbol": "scene_1",
-  "x": 64,
+  "x": 60,
   "y": 30,
   "script": [
     {

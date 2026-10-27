@@ -3,7 +3,7 @@
   "id": "63cbde4a-dad7-4dc3-98a8-0acdf1f377ad",
   "_index": 1,
   "name": "01: SCN_FACTION_SELECT",
-  "backgroundId": "",
+  "backgroundId": "26b06f47-33aa-482c-bd00-0d52d41bcb3e",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -19,11 +19,20 @@
     "",
     ""
   ],
-  "spritePaletteIds": [],
-  "collisions": "",
+  "spritePaletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_2",
-  "x": 272,
+  "x": 264,
   "y": 32,
   "script": [
     {
@@ -31,9 +40,9 @@
       "args": {
         "variable": "18",
         "items": 3,
-        "option1": "Tyrant's Enforcer",
-        "option2": "Steamcorp Agent",
-        "option3": "Circle's Druid",
+        "option1": "T.Enforcer",
+        "option2": "ST. Agent",
+        "option3": "Druid",
         "option4": "",
         "option5": "",
         "option6": "",
@@ -97,7 +106,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "You march under iron banners. The Executioner's Greatblade will claim the egg for the Empire."
+                "You march under \niron banners. \nThe Executioner's \nGreatblade will claim \nthe egg \nfor the Empire."
               ],
               "__section": "text",
               "avatarId": "",
@@ -167,7 +176,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Pneumatic carbines primed. The dragon's blood will power the Corporation's expansion."
+                "Pneumatic carbines primed. \nThe dragon's blood \nwill power the \nCorporation's expansion."
               ],
               "__section": "text",
               "avatarId": "",
@@ -259,7 +268,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "The ancestral roots hum. You carry the runestaff to preserve the natural sanctuary."
+                "The ancestral roots hum. \nYou carry the runestaff,\npreserve the natural \nsanctuary."
               ],
               "__section": "text",
               "avatarId": "",
@@ -284,6 +293,23 @@
         "false": []
       },
       "id": "eb0b6d37-246c-414a-bd09-dcf8fff7c7c1"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "8ebab7d8-fb84-4ef5-9ab2-435e8c077f02",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "d49f0a1d-87c5-4438-8459-b2893a9658eb"
     }
   ],
   "playerHit1Script": [],
