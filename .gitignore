@@ -6,3 +6,7 @@ cache/
 *.icloud
 
 user_settings.gbsres
+
+# Operating System Files
+.DS_Store
+Thumbs.db
