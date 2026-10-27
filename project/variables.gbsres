@@ -3,103 +3,98 @@
   "variables": [
     {
       "id": "0",
-      "name": "Quest1",
-      "symbol": "var_quest1"
+      "name": "03_VAR_STAT_MAX_HP",
+      "symbol": "var_03_var_stat_max_hp"
     },
     {
       "id": "1",
-      "name": "Quest2",
-      "symbol": "var_quest2"
+      "name": "04_VAR_STAT_MP",
+      "symbol": "var_04_var_stat_mp"
     },
     {
       "id": "2",
-      "name": "Quest3",
-      "symbol": "var_quest3"
+      "name": "05_VAR_STAT_MAX_MP",
+      "symbol": "var_05_var_stat_max_mp"
     },
     {
       "id": "3",
-      "name": "Quest4",
-      "symbol": "var_quest4"
-    },
-    {
-      "id": "4",
-      "name": "Quest5",
-      "symbol": "var_quest5"
+      "name": "06_VAR_WEAPON_TIER",
+      "symbol": "var_06_var_weapon_tier"
     },
     {
       "id": "5",
-      "name": "Quest6",
-      "symbol": "var_quest6"
+      "name": "08_VAR_CATALYST_TIER",
+      "symbol": "var_08_var_catalyst_tier"
     },
     {
       "id": "6",
-      "name": "Quest7",
-      "symbol": "var_quest7"
+      "name": "09_VAR_GOLD",
+      "symbol": "var_09_var_gold"
     },
     {
       "id": "7",
-      "name": "Quest8",
-      "symbol": "var_quest8"
+      "name": "10_VAR_RELIC_COUNT",
+      "symbol": "var_10_var_relic_count"
     },
     {
       "id": "8",
-      "name": "Quest9",
-      "symbol": "var_quest9"
+      "name": "11_VAR_KEY_COUNT",
+      "symbol": "var_11_var_key_count"
     },
     {
       "id": "9",
-      "name": "Quest10",
-      "symbol": "var_quest10"
+      "name": "12_ VAR_PEN1_PROGRESS",
+      "symbol": "var_12_var_pen1_progress"
     },
     {
       "id": "10",
-      "name": "Quest11",
-      "symbol": "var_quest11"
+      "name": "13_VAR_PEN1_SECRET",
+      "symbol": "var_13_var_pen1_secret"
     },
     {
       "id": "11",
-      "name": "Quest12",
-      "symbol": "var_quest12"
+      "name": "14_VAR_BRANCH_A_LOCK",
+      "symbol": "var_14_var_branch_a_lock"
     },
     {
       "id": "12",
-      "name": "Turnip Counter",
-      "symbol": "var_turnip_counter"
+      "name": "17_VAR_FINAL_NEST_UNLOCKED",
+      "symbol": "var_17_var_final_nest_unloc"
     },
     {
       "id": "13",
-      "name": "Seen Cat",
-      "symbol": "var_seen_cat"
+      "name": "15_VAR_BRANCH_B_LOCK",
+      "symbol": "var_15_var_branch_b_lock"
     },
     {
       "id": "14",
-      "name": "Used Radio",
-      "symbol": "var_used_radio"
+      "name": "18_VAR_RIVAL_1_STATE",
+      "symbol": "var_18_var_rival_1_state"
     },
     {
       "id": "15",
-      "name": "Seen Duck",
-      "symbol": "var_seen_duck"
+      "name": "16_VAR_BRANCH_C_LOCK",
+      "symbol": "var_16_var_branch_c_lock"
     },
     {
       "id": "16",
-      "name": "Pushed Ice Block",
-      "symbol": "var_pushed_ice_block"
+      "name": "02_VAR_STAT_HP",
+      "symbol": "var_02_var_stat_hp"
     },
     {
       "id": "17",
-      "name": "Music House Playing",
-      "symbol": "var_music_house_playing"
+      "name": "01_VAR_HERO_GENDER",
+      "symbol": "var_01_var_hero_gender"
     },
     {
       "id": "18",
-      "name": "Health",
-      "symbol": "var_health"
+      "name": "00_VAR_HERO_FACTION",
+      "symbol": "var_00_var_hero_faction"
     },
     {
       "id": "19",
-      "name": "Weapon Cooldown",
-      "symbol": "var_weapon_cooldown"
+      "name": "19_VAR_RIVAL_2_STATE",
+      "symbol": "var_19_var_rival_2_state"
     },
     {
       "id": "871ea302-1cc1-463c-b9d7-530aac38fe81__L0",
@@ -160,6 +155,11 @@
       "id": "5fa52cd0-57cd-414c-8b93-5601c6e9636f__L0",
       "name": "Defeated",
       "symbol": "var_defeated_2"
+    },
+    {
+      "id": "4",
+      "name": "07_VAR_ARMOR_TIER",
+      "symbol": "var_07_var_armor_tier"
     }
   ],
   "constants": []
