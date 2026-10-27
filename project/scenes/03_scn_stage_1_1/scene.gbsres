@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "f2855be3-60ce-4ccb-a1d3-5c6317e3cf86",
+  "_index": 3,
+  "name": "03: SCN_STAGE_1_1",
+  "backgroundId": "26b06f47-33aa-482c-bd00-0d52d41bcb3e",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00dc+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0012+0f15+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 471,
+  "y": 212.33333206176758,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

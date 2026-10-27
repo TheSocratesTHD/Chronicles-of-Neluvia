@@ -84,6 +84,23 @@
               "closeDelayFrames": 30
             },
             "id": "950e5d7d-6774-4ef2-9c52-6b2fd025944d"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "f2855be3-60ce-4ccb-a1d3-5c6317e3cf86",
+              "x": {
+                "type": "number",
+                "value": 2
+              },
+              "y": {
+                "type": "number",
+                "value": 14
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "ae1c58d1-2c7a-4a69-b20f-67155a1821ef"
           }
         ],
         "false": [
