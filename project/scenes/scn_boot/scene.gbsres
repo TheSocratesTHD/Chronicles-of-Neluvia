@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "1e9a68a9-508e-415d-933a-c5100cfec9ea",
+  "_index": 0,
+  "name": "SCN_BOOT",
+  "backgroundId": "1da35172-aea4-40b4-8215-7992d9245b34",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 97,
+  "y": 59,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
