@@ -225,6 +225,21 @@
       "id": "32",
       "name": "31: VAR_PEN2_FINAL",
       "symbol": "var_31_var_pen2_final"
+    },
+    {
+      "id": "63cbde4a-dad7-4dc3-98a8-0acdf1f377ad__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "33",
+      "name": "33: VAR_RIVAL_1_STATE",
+      "symbol": "var_var_rival_1_state_0"
+    },
+    {
+      "id": "34",
+      "name": "34: VAR_RIVAL_2_STATE",
+      "symbol": "var_34_var_rival_2_state"
     }
   ],
   "constants": []

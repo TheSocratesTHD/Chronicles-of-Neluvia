@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "1e9a68a9-508e-415d-933a-c5100cfec9ea",
   "_index": 0,
-  "name": "SCN_BOOT",
+  "name": "00: SCN_BOOT",
   "backgroundId": "1da35172-aea4-40b4-8215-7992d9245b34",
   "tilesetId": "",
   "width": 20,
@@ -12,7 +12,7 @@
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "",
-  "autoFadeSpeed": 1,
+  "autoFadeSpeed": 3,
   "symbol": "scene_1",
   "x": 64,
   "y": 30,
@@ -170,6 +170,23 @@
         }
       },
       "id": "a308aa06-dae2-446a-b0bb-e9496b41e4f3"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "63cbde4a-dad7-4dc3-98a8-0acdf1f377ad",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
+      },
+      "id": "ae33fa2a-d83f-4345-a4f0-01b1530e8315"
     }
   ],
   "playerHit1Script": [],

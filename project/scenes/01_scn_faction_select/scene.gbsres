@@ -1,0 +1,292 @@
+{
+  "_resourceType": "scene",
+  "id": "63cbde4a-dad7-4dc3-98a8-0acdf1f377ad",
+  "_index": 1,
+  "name": "01: SCN_FACTION_SELECT",
+  "backgroundId": "",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 272,
+  "y": 32,
+  "script": [
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "18",
+        "items": 3,
+        "option1": "Tyrant's Enforcer",
+        "option2": "Steamcorp Agent",
+        "option3": "Circle's Druid",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue"
+      },
+      "id": "eeae4b93-0068-4259-86fb-786a8b1b29a4"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "17",
+        "trueText": "Male",
+        "falseText": "Female"
+      },
+      "id": "0f907487-42d9-4c03-a92c-54e704f06fb3"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "18"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "33",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "2c8339a3-42ea-4f13-8221-f459419e86a7"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "34",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "590102b9-9d2c-4e65-867d-d76954a832aa"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You march under iron banners. The Executioner's Greatblade will claim the egg for the Empire."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "77b20ff5-734c-4e4e-89d6-56f3ea141f26"
+          }
+        ],
+        "false": []
+      },
+      "id": "d8ff08ff-1c15-4fd6-8e3c-7797fc7c0055"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "18"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "33",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "34acbf90-1181-4ea7-a2d5-ce0fde8579d6"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "34",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "456e0d6b-a41e-4cf1-b7b5-a91990c52286"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Pneumatic carbines primed. The dragon's blood will power the Corporation's expansion."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "83e7c1ee-00f5-4e22-8365-87586f907370"
+          }
+        ],
+        "false": []
+      },
+      "id": "b6e74858-3fd2-48d6-916a-a311e4435333"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "18"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "33",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "e05a76ed-81f8-4308-bfe1-6293897f630c"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "34",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "aa07ef0a-7c96-46e0-94d0-2e7775d8e632"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "3",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "e7a51166-f790-4547-bba4-42745489ffdd"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "10",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "28bfd567-2fda-4b3d-824e-c25e6311b41b"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The ancestral roots hum. You carry the runestaff to preserve the natural sanctuary."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "b896caab-c6ac-4673-91ae-fdc960a18065"
+          }
+        ],
+        "false": []
+      },
+      "id": "eb0b6d37-246c-414a-bd09-dcf8fff7c7c1"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
