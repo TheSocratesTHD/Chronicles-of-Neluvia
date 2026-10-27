@@ -83,8 +83,8 @@
     },
     {
       "id": "17",
-      "name": "1: VAR_HERO_GENDER",
-      "symbol": "var_1_var_hero_gender"
+      "name": "01: VAR_HERO_GENDER",
+      "symbol": "var_01_var_hero_gender"
     },
     {
       "id": "18",
