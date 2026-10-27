@@ -3,98 +3,98 @@
   "variables": [
     {
       "id": "0",
-      "name": "03_VAR_STAT_MAX_HP",
-      "symbol": "var_03_var_stat_max_hp"
+      "name": "03: VAR_BASE_MP",
+      "symbol": "var_03_var_base_mp"
     },
     {
       "id": "1",
-      "name": "04_VAR_STAT_MP",
-      "symbol": "var_04_var_stat_mp"
+      "name": "04: VAR_BASE_ARMOR",
+      "symbol": "var_04_var_base_armor"
     },
     {
       "id": "2",
-      "name": "05_VAR_STAT_MAX_MP",
-      "symbol": "var_05_var_stat_max_mp"
+      "name": "05: VAR_BASE_WEAPON",
+      "symbol": "var_05_var_base_weapon"
     },
     {
       "id": "3",
-      "name": "06_VAR_WEAPON_TIER",
-      "symbol": "var_06_var_weapon_tier"
+      "name": "06: VAR_BASE_ATTUNE",
+      "symbol": "var_06_var_base_attune"
     },
     {
       "id": "5",
-      "name": "08_VAR_CATALYST_TIER",
-      "symbol": "var_08_var_catalyst_tier"
+      "name": "08: VAR_STAT_HP",
+      "symbol": "var_08_var_stat_hp"
     },
     {
       "id": "6",
-      "name": "09_VAR_GOLD",
-      "symbol": "var_09_var_gold"
+      "name": "09: VAR_STAT_MAX_MP",
+      "symbol": "var_09_var_stat_max_mp"
     },
     {
       "id": "7",
-      "name": "10_VAR_RELIC_COUNT",
-      "symbol": "var_10_var_relic_count"
+      "name": "10: VAR_STAT_MP",
+      "symbol": "var_10_var_stat_mp"
     },
     {
       "id": "8",
-      "name": "11_VAR_KEY_COUNT",
-      "symbol": "var_11_var_key_count"
+      "name": "11: VAR_STAT_ARMOR_TOTAL",
+      "symbol": "var_11_var_stat_armor_total"
     },
     {
       "id": "9",
-      "name": "12_ VAR_PEN1_PROGRESS",
-      "symbol": "var_12_var_pen1_progress"
+      "name": "12: VAR_STAT_WEAPON_TOTAL",
+      "symbol": "var_12_var_stat_weapon_tota"
     },
     {
       "id": "10",
-      "name": "13_VAR_PEN1_SECRET",
-      "symbol": "var_13_var_pen1_secret"
+      "name": "13: VAR_STAT_ATTUNE_TOTAL",
+      "symbol": "var_13_var_stat_attune_tota"
     },
     {
       "id": "11",
-      "name": "14_VAR_BRANCH_A_LOCK",
-      "symbol": "var_14_var_branch_a_lock"
+      "name": "14: VAR_GEAR_HP_BONUS",
+      "symbol": "var_14_var_gear_hp_bonus"
     },
     {
       "id": "12",
-      "name": "17_VAR_FINAL_NEST_UNLOCKED",
-      "symbol": "var_17_var_final_nest_unloc"
+      "name": "17: VAR_GEAR_WEAPON_BONUS",
+      "symbol": "var_17_var_gear_weapon_bonu"
     },
     {
       "id": "13",
-      "name": "15_VAR_BRANCH_B_LOCK",
-      "symbol": "var_15_var_branch_b_lock"
+      "name": "15: VAR_GEAR_MP_BONUS",
+      "symbol": "var_15_var_gear_mp_bonus"
     },
     {
       "id": "14",
-      "name": "18_VAR_RIVAL_1_STATE",
-      "symbol": "var_18_var_rival_1_state"
+      "name": "18: VAR_GEAR_ATTUNE_BONUS",
+      "symbol": "var_18_var_gear_attune_bonu"
     },
     {
       "id": "15",
-      "name": "16_VAR_BRANCH_C_LOCK",
-      "symbol": "var_16_var_branch_c_lock"
+      "name": "16: VAR_GEAR_ARMOR_BONUS",
+      "symbol": "var_16_var_gear_armor_bonus"
     },
     {
       "id": "16",
-      "name": "02_VAR_STAT_HP",
-      "symbol": "var_02_var_stat_hp"
+      "name": "02: VAR_BASE_HP",
+      "symbol": "var_02_var_base_hp"
     },
     {
       "id": "17",
-      "name": "01_VAR_HERO_GENDER",
-      "symbol": "var_01_var_hero_gender"
+      "name": "1: VAR_HERO_GENDER",
+      "symbol": "var_1_var_hero_gender"
     },
     {
       "id": "18",
-      "name": "00_VAR_HERO_FACTION",
-      "symbol": "var_00_var_hero_faction"
+      "name": "00: VAR_HERO_FACTION",
+      "symbol": "var_var_hero_faction_0"
     },
     {
       "id": "19",
-      "name": "19_VAR_RIVAL_2_STATE",
-      "symbol": "var_19_var_rival_2_state"
+      "name": "19: VAR_UNSPENT_POINTS",
+      "symbol": "var_19_var_unspent_points"
     },
     {
       "id": "871ea302-1cc1-463c-b9d7-530aac38fe81__L0",
@@ -158,8 +158,73 @@
     },
     {
       "id": "4",
-      "name": "07_VAR_ARMOR_TIER",
-      "symbol": "var_07_var_armor_tier"
+      "name": "07: VAR_STAT_MAX_HP",
+      "symbol": "var_07_var_stat_max_hp"
+    },
+    {
+      "id": "20",
+      "name": "20: VAR_GOLD",
+      "symbol": "var_20_var_gold"
+    },
+    {
+      "id": "21",
+      "name": "21: VAR_RELIC_COUNT",
+      "symbol": "var_21_var_relic_count"
+    },
+    {
+      "id": "22",
+      "name": "22: VAR_KEY_COUNT",
+      "symbol": "var_22_var_key_count"
+    },
+    {
+      "id": "23",
+      "name": "23: VAR_PEN0_PROGRESS",
+      "symbol": "var_23_var_pen0_progress"
+    },
+    {
+      "id": "24",
+      "name": "23: VAR_PEN1_PROGRESS",
+      "symbol": "var_23_var_pen1_progress"
+    },
+    {
+      "id": "25",
+      "name": "24: VAR_PEN1_SECRET",
+      "symbol": "var_24_var_pen1_secret"
+    },
+    {
+      "id": "26",
+      "name": "25: VAR_BRANCH_A_LOCK",
+      "symbol": "var_25_var_branch_a_lock"
+    },
+    {
+      "id": "27",
+      "name": "26: VAR_BRANCH_A_SECRET",
+      "symbol": "var_var_branch_a_secret_0"
+    },
+    {
+      "id": "28",
+      "name": "27: VAR_BRANCH_B_LOCK",
+      "symbol": "var_27_var_branch_b_lock"
+    },
+    {
+      "id": "29",
+      "name": "28: VAR_BRANCH_B_SECRET",
+      "symbol": "var_28_var_branch_b_secret"
+    },
+    {
+      "id": "30",
+      "name": "29: VAR_BRANCH_C_LOCK",
+      "symbol": "var_29_var_branch_c_lock"
+    },
+    {
+      "id": "31",
+      "name": "30: VAR_BRANCH_C_SECRET",
+      "symbol": "var_30_var_branch_c_secret"
+    },
+    {
+      "id": "32",
+      "name": "31: VAR_PEN2_FINAL",
+      "symbol": "var_31_var_pen2_final"
     }
   ],
   "constants": []
